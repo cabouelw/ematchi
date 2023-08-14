@@ -5,6 +5,7 @@
 }
 
 html, body {
+    position: fixed;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -13,4 +14,10 @@ html, body {
 
 h1 {
     font-family: 'Grandstander', cursive;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
 }
