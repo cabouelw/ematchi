@@ -111,7 +111,6 @@
 		justify-content: center;
 		align-items: center;
 		height: 100%;
-		width: 100%;
 		font-size: min(1vmin, 0.7rem);
 		background-color: #0d0226;
 	}
@@ -126,5 +125,11 @@
 		grid-gap: 10px;
 		width: 80em;
 		height: 80em;
+	}
+	@media screen and (max-width: 768px) {
+		.info {
+			height: 17em;
+		}
+
 	}
 </style>
